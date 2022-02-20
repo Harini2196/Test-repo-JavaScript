@@ -1,0 +1,8 @@
+Powershell commands-
+
+get-service
+where-object
+select-object
+
+
+$data = get-service | where-object status -eq stopped | select-object name,status
